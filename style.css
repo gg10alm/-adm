@@ -335,8 +335,8 @@ html {
     }
 
     .cards {
-        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-        gap: 15px;
+        grid-template-columns: 1fr; /* Um card por linha */
+        gap: 15px; /* Espaçamento entre os cards */
     }
 
     .card {
@@ -398,8 +398,8 @@ html {
     }
 
     .cards {
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-        gap: 10px;
+        grid-template-columns: 1fr; /* Um card por linha */
+        gap: 10px; /* Espaçamento menor para telas menores */
     }
 
     .card {
